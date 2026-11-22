@@ -19,7 +19,7 @@
   --hinweis-text: #6e4a00;
   --schatten: 0 8px 28px rgba(21, 63, 77, 0.08);
   --radius: 18px;
-  --leiste-h: 6rem;
+  --leiste-h: 7.25rem;
   --safe-unten: env(safe-area-inset-bottom, 0px);
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-family: var(--font);
@@ -166,33 +166,34 @@ main {
   background: linear-gradient(165deg, #f07a3a 0%, #e25a2a 42%, #1c5568 100%);
   color: #fff;
   border-radius: 28px;
-  padding: 1.5rem 1.3rem 1.4rem;
-  margin: 0.2rem 0 1.2rem;
+  padding: 1.2rem 1.2rem 1.15rem;
+  margin: 0.15rem 0 0.85rem;
   box-shadow: var(--schatten);
 }
 
 .hero h1 {
   color: #fff;
-  font-size: 1.85rem;
-  margin-top: 0.85rem;
+  font-size: 1.7rem;
+  margin-top: 0.7rem;
 }
 
 .hero .lead {
   color: rgba(255, 255, 255, 0.92);
   margin: 0;
+  font-size: 0.98rem;
 }
 
 .hero__logo { margin-bottom: 0.2rem; }
 
 .versprechen {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.7rem;
   padding: 0;
   list-style: none;
 }
 
 .versprechen li {
   position: relative;
-  padding: 0.45rem 0 0.45rem 1.7rem;
+  padding: 0.35rem 0 0.35rem 1.7rem;
   border-bottom: 1px solid var(--linie);
 }
 
@@ -720,6 +721,7 @@ details[open] summary::after { content: "–"; }
   color: var(--leise);
   border-top: 1px solid var(--linie);
   padding-top: 0.9rem;
+  margin-bottom: 0.4rem;
 }
 
 .knopf--block {

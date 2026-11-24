@@ -1,20 +1,10 @@
-# Redesign-Vorschlag (Prototyp)
+# Dieses Repo ist nicht mehr der kanonische Ort
 
-Klickbarer UX-Vorschlag für den Schweizer Ruhestandsrechner. Kein Ersatz für die App, kein echter Rechenkern, keine Beratung.
+Der Redesign-Prototyp gehört ins Repo **Swiss-Retirement-Calculator**, Ordner `prototype/`, Branch `prototype/redesign`.
 
-- Nur statisches HTML, CSS und JavaScript. Kein Build, keine Abhängigkeiten, kein Netz, kein Speichern.
-- Start mit einem **Beispielhaushalt** (Jahrgang 1976, Kanton Zürich). Zuerst nur Eckdaten, der Rest sind sichtbare Standardwerte. Das Ergebnis ist eine grobe Schätzung und lässt sich freiwillig verfeinern, bis ins Detail. Wohneigentum und Wegzug sind optionale Module. Der Planungshorizont bleibt 120.
-- Es gibt keinen Schalter «Schnell / Detailliert».
-- Branch im App-Repo: `prototype/redesign`. **Nicht nach main mergen**, die Production-Pages der App nicht umstellen.
+- Quellcode: https://github.com/patrickstubner/Swiss-Retirement-Calculator/tree/prototype/redesign/prototype
+- Vorschau: https://ruhestandsrechner-prototyp.pstubner.workers.dev/
 
-## Vorschau
+Dieses Repo wurde versehentlich als eigenes GitHub-Pages-Projekt angelegt. Die Prototyp-Dateien hier entsprechen dem Stand vom 22.11.2026 (bis auf eine leere `.nojekyll`) und sind im Hauptrepo vollständig vorhanden. Es wird hier nicht weiterentwickelt. Ob das Repo später entfernt wird, entscheidet der Projektinhaber; in diesem Auftrag wird nichts gelöscht.
 
-Kostenlos auf einem eigenen GitHub-Pages-Repo, getrennt von der produktiven App:
-
-- https://patrickstubner.github.io/Ruhestandsrechner-Prototyp/
-
-Lokal: `python3 -m http.server` in diesem Ordner.
-
-## Sicherheitsprüfung 22.11.2026
-
-Stand: Dateien in `prototype/`. Keine Geheimnisse, keine Fremdskripte, keine Cookies, kein `localStorage`. CSP über Meta-Tag (`default-src 'none'`, `script-src`/`style-src`/`img-src 'self'`). Eingaben werden nur als Zahlen gelesen und mit `textContent` angezeigt. Ergebnis: keine Schwachstellen im Prototyp.
+Die frühere Pages-Adresse `https://patrickstubner.github.io/Ruhestandsrechner-Prototyp/` kann noch den alten Stand zeigen.
